@@ -800,6 +800,20 @@ img {
   padding-top: 94px;
 }
 
+.team .description {
+  width: 270px;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  color: #212121;
+  background-color: #ffffff;
+  font-weight: normal;
+  color: #757575;
+  margin-top: 10px;
+}
+
 .background-team {
   background-color: #f5f4fa;
 }
@@ -843,20 +857,6 @@ img {
 
 .team-name {
   margin-top: 30px;
-}
-
-.team .description {
-  width: 270px;
-  margin-bottom: 30px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.187;
-  text-align: center;
-  color: #212121;
-  background-color: #ffffff;
-  font-weight: normal;
-  color: #757575;
-  margin-top: 10px;
 }
 
 .clients {

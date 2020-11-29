@@ -27,7 +27,7 @@ body {
   font-style: normal;
   font-weight: normal;
   letter-spacing: 0.03em;
-  color: var(--primary-text-black);
+  color: $primary-text-black;
 }
 
 img {
@@ -66,7 +66,7 @@ img {
   font-size: 36px;
   line-height: 1.166;
   text-align: center;
-  color: var(--primary-text-black);
+  color: $primary-text-black;
   margin-bottom: 50px;
 }
 
@@ -75,7 +75,7 @@ img {
   font-size: 14px;
   line-height: 1.143;
   text-transform: uppercase;
-  color: var(--primary-text-black);
+  color: $primary-text-black;
   padding-bottom: 10px;
 }
 

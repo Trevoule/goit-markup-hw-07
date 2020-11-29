@@ -20,8 +20,8 @@
 
 .options-button {
   display: inline-flex;
-  color: var(--primary-text-black);
-  background-color: var(--background-team);
+  color: $primary-text-black;
+  background-color: $background-team;
   text-align: center;
   align-items: center;
   padding: 6px 22px;
@@ -37,7 +37,7 @@
 
 .options-button:hover,
 .options-button:focus {
-  color: var(--white);
-  background-color: var(--text-accent);
+  color: $white;
+  background-color: $text-accent;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

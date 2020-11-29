@@ -4,7 +4,7 @@
 }
 
 .background-team {
-  background-color: var(--background-team);
+  background-color: $background-team;
 }
 
 .team-padding {
@@ -21,8 +21,8 @@
   line-height: 1.187;
 
   text-align: center;
-  color: var(--primary-text-black);
-  background-color: var(--white);
+  color: $primary-text-black;
+  background-color: $white;
   border: 1px solid transparent;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -49,10 +49,10 @@
   line-height: 1.187;
 
   text-align: center;
-  color: var(--primary-text-black);
-  background-color: var(--white);
+  color: $primary-text-black;
+  background-color: $white;
 
   font-weight: normal;
-  color: var(--primary-text-gray);
+  color: $primary-text-gray;
   margin-top: 10px;
 }

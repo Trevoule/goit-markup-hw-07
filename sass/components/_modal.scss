@@ -31,7 +31,7 @@
   width: 30px;
   height: 30px;
 
-  background-color: var(--white);
+  background-color: $white;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
 }
@@ -42,5 +42,5 @@
   line-height: 1.09;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--primary-text-black);
+  color: $primary-text-black;
 }

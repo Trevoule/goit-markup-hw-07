@@ -21,7 +21,7 @@
   font-weight: 400;
   line-height: 1.16;
   text-align: left;
-  color: var(--primary-text-gray);
+  color: $primary-text-gray;
 
   outline: none;
 }
@@ -30,13 +30,13 @@
 .input-form:hover,
 .form_comment:hover,
 .form_comment:focus {
-  border: 1px solid var(--text-accent);
+  border: 1px solid $text-accent;
   cursor: pointer;
 }
 
 .input-form:focus + .svg-icon,
 .input-form:hover + .svg-icon {
-  fill: var(--text-accent);
+  fill: $text-accent;
 }
 
 .request-form {
@@ -62,7 +62,7 @@
   font-weight: 400;
   line-height: 1.16;
   text-align: left;
-  color: var(--primary-text-gray);
+  color: $primary-text-gray;
 
   outline: none;
 }

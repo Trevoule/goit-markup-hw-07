@@ -6,7 +6,7 @@
 }
 
 .label-accept {
-  color: var(--primary-text-gray);
+  color: $primary-text-gray;
 
   font-size: 14px;
   line-height: 1.7;
@@ -14,7 +14,7 @@
 }
 
 .accept-span {
-  color: var(--text-accent);
+  color: $text-accent;
   text-decoration: underline;
 }
 

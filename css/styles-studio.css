@@ -193,16 +193,6 @@ img {
   border-radius: 2px;
 }
 
-.address-link:hover .svg-envelope,
-.address-link:focus .svg-envelope,
-.address-link:hover .svg-telephone,
-.address-link:focus .svg-telephone,
-.link:hover,
-.link:focus {
-  color: #2196f3;
-  fill: #2196f3;
-}
-
 .svg-envelope {
   -webkit-box-align: center;
       -ms-flex-align: center;

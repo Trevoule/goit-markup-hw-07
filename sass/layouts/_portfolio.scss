@@ -2,14 +2,14 @@
 
 .portfolio {
   display: flex;
-}
 
-.portfolio .item {
-  position: relative;
-}
+  .item {
+    position: relative;
+  }
 
-.portfolio .item:not(:last-child) {
-  margin-right: 30px;
+  .item:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .thumb > .label {

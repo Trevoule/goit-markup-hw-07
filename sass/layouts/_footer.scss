@@ -15,14 +15,14 @@
 .footer-address {
   color: $white;
   text-decoration: none;
-}
 
-.footer-address .item:not(:last-child) {
-  margin-bottom: 9px;
-}
+  .item:not(:last-child) {
+    margin-bottom: 9px;
+  }
 
-.footer-address .item:first-child {
-  margin-top: 20px;
+  .item:first-child {
+    margin-top: 20px;
+  }
 }
 
 .footer-contacts {

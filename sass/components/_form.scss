@@ -24,19 +24,17 @@
   color: $primary-text-gray;
 
   outline: none;
-}
 
-.input-form:focus,
-.input-form:hover,
-.form_comment:hover,
-.form_comment:focus {
-  border: 1px solid $text-accent;
-  cursor: pointer;
-}
+  &:focus,
+  &:hover {
+    border: 1px solid $text-accent;
+    cursor: pointer;
+  }
 
-.input-form:focus + .svg-icon,
-.input-form:hover + .svg-icon {
-  fill: $text-accent;
+  &:focus + .svg-icon,
+  &:hover + .svg-icon {
+    fill: $text-accent;
+  }
 }
 
 .request-form {
@@ -65,4 +63,10 @@
   color: $primary-text-gray;
 
   outline: none;
+
+  &:hover,
+  &:focus {
+    border: 1px solid $text-accent;
+    cursor: pointer;
+  }
 }

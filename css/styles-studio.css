@@ -95,12 +95,6 @@ img {
   padding-bottom: 10px;
 }
 
-.description {
-  font-size: 14px;
-  line-height: 1.71;
-  color: var(--primary-text-gray);
-}
-
 .bottom-padding {
   padding-bottom: 94px;
 }
@@ -780,47 +774,6 @@ img {
   border: 1px solid var(--section-border);
 }
 
-/* Преимущества */
-.feature {
-  margin-bottom: 30px;
-}
-
-.feature-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.feature-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border-radius: 4px;
-  width: 270px;
-  height: 120px;
-  background-color: #f5f4fa;
-  margin-bottom: 30px;
-}
-
-.feature-svg {
-  width: 70px;
-  height: 70px;
-}
-
-.feature-list .item {
-  width: 270px;
-}
-
-.feature-list .item:not(:last-child) {
-  margin-right: 30px;
-}
-
 /* Portfolio */
 .portfolio {
   display: -webkit-box;
@@ -856,70 +809,6 @@ img {
   line-height: 1.172;
   text-transform: uppercase;
   color: var(--white);
-}
-
-/* Team */
-.team {
-  padding-top: 94px;
-}
-
-.background-team {
-  background-color: var(--background-team);
-}
-
-.team-padding {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-bottom: 50px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.team-item {
-  width: 270px;
-  margin-bottom: 30px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.187;
-  text-align: center;
-  color: var(--primary-text-black);
-  background-color: var(--white);
-  border: 1px solid transparent;
-  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.team-item:hover {
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.team-item:not(:last-child) {
-  margin-right: 30px;
-}
-
-.team-name {
-  margin-top: 30px;
-}
-
-.team .description {
-  width: 270px;
-  margin-bottom: 30px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.187;
-  text-align: center;
-  color: var(--primary-text-black);
-  background-color: var(--white);
-  font-weight: normal;
-  color: var(--primary-text-gray);
-  margin-top: 10px;
 }
 
 .clients {
@@ -1152,7 +1041,7 @@ img {
   display: -ms-inline-flexbox;
   display: inline-flex;
   color: var(--primary-text-black);
-  background-color: var(--background-button);
+  background-color: var(--background-team);
   text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -1206,5 +1095,16 @@ img {
   font-size: 18px;
   line-height: 1.55;
   color: var(--white);
+}
+
+.description {
+  padding: 20px 24px;
+}
+
+.item-description {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-gray);
 }
 /*# sourceMappingURL=styles-studio.css.map */

@@ -31,3 +31,9 @@
 .feature-list .item:not(:last-child) {
   margin-right: 30px;
 }
+
+.description {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--primary-text-gray);
+}

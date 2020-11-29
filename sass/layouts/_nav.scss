@@ -1,0 +1,57 @@
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+}
+
+/* только первый */
+.site-nav .item:first-child {
+  margin-right: 93px;
+}
+
+/* всем кроме последнего */
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.site-nav .item {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  position: relative;
+}
+
+.contacts-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+}
+
+/* всем кроме первого  */
+.contacts-nav .item + .item {
+  margin-left: 50px;
+}
+
+.contacts-nav .svg-envelope {
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts-nav .svg-telephone {
+  align-items: center;
+  justify-content: center;
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

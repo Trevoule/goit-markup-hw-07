@@ -1,0 +1,33 @@
+/* Преимущества */
+
+.feature {
+  margin-bottom: 30px;
+}
+
+.feature-list {
+  display: flex;
+}
+
+.feature-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+}
+
+.feature-svg {
+  width: 70px;
+  height: 70px;
+}
+
+.feature-list .item {
+  width: 270px;
+}
+
+.feature-list .item:not(:last-child) {
+  margin-right: 30px;
+}
